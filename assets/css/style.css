@@ -1,0 +1,162 @@
+body{
+	background-image: url('assets/images/marvel_bg.jpg');
+	background-position: top;
+	color: #ffffff;
+	background-color: #000000;
+
+}
+.headerBG{
+
+	background-color: rgba(0,0,0,.8);
+	margin-bottom: 30px;
+	padding: 10px;
+}
+.modalTextColor{
+	color:#000000;
+
+}
+.questionText{
+	font-size: 30px;
+	padding-top: 15px;
+	height: 125px;
+}
+#questionNumText{
+	font-size: 24px;
+	padding-top: 15px; 
+}
+.mainArea{
+
+	background-color: rgba(0,0,0,.8);
+}
+.centerBorder{
+	
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 0 3px;
+}
+.bottomOutline{
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 15px;
+}
+.answerButton{
+	margin: 15px;
+	padding: 10px;
+	white-space: normal;
+	color: #333333;
+	font-size: 24px;
+	width: 325px;
+}
+#timer{
+	font-size: 92px;
+}
+#timerText{
+	font-size: 36px;
+}
+.scoreTimerText{
+	font-size: 36px;
+}
+#currentScore, #scorePercent{
+	font-size: 64px;
+	color: #FABC16;
+}
+.buttonCenter{
+	display : table-cell;
+    vertical-align : middle;
+    float:none;
+    height: 250px;
+}
+.buttonNormal, .buttonNormalAfterClick{
+	color:#333333;
+	background-color: #31B0D5;
+	border: none;
+	border-radius: 4px;
+}
+.buttonNormal:hover{
+ 	color:#ffffff;
+ }
+.buttonNormal:active {
+ 	background-color:#286090;
+ 	border: none;
+ }
+.buttonCorrect{
+	color:#ffffff;
+	background-color: #449D44;
+	border: none;
+	border-radius: 4px;
+}
+.buttonWrong{
+	color:#ffffff;
+	background-color: #C9302C;
+	border: none;
+	border-radius: 4px;
+}
+.answerRow{
+	overflow:hidden;
+}
+.buttonHidden{
+	display: none;
+}
+.disabled{
+	cursor: not-allowed;
+
+}
+button:focus {
+ 	outline:0;
+ }
+
+ .imageSize{
+ 	width: 350px;
+ 	height: auto;
+ }
+
+.endGameText{
+	font-size: 20px;
+	color: #000000;
+}
+#timerText{
+		height: auto;
+	}
+
+
+@media(max-width: 1199px){
+	.answerButton{
+		font-size: 16px;
+		width: 260px;
+	}
+	#currentScore, #scorePercent{
+		font-size: 48px;
+	}
+	#timerText{
+		font-size: 32px;
+		height: auto;
+	}
+}
+
+@media(max-width: 991px){
+
+	.answerButton{
+		text-align: center;
+		font-size: 24px;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.buttonCenter{
+		display : inline;
+	    vertical-align : middle;
+	    height: 250px;
+	}
+	.centerBorder{
+	
+		border-color: #ffffff;
+		border-style: solid;
+		border-width: 0;
+	}
+	#currentScore, #scorePercent{
+		height:50px;
+		font-size: 40px;
+	}
+	#timerText{
+		height: 50px;
+	}
+}
